@@ -13,6 +13,7 @@ const Header = () => {
                         <NavLink to='/popular'>Popular</NavLink>
                         <NavLink to='/now_playin'>Now playing</NavLink>
                         <NavLink to='/top_rated'>Top rated</NavLink>
+                        <NavLink to ='/upcoming'>Upcoming</NavLink>
                     </div>
                     <button>dark</button>
                 </div>
