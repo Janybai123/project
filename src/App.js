@@ -11,9 +11,8 @@ import Upcoming from './pages/Upcoming';
 function App() {
   return <div className='App'>
     <Header/>
-    <Home/>
     <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route path='/' element={<Home/>}/>
       <Route path='/popular' element={<Popular/>}/>
       <Route path='/now_playin' element={<NowPlaying/>}/>
       <Route path='/top_rated' element={<TopRated/>}/>
