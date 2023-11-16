@@ -8,9 +8,7 @@ const Home = () => {
                 <div className='container_inner'>
                 <h1>Добро пожаловать...</h1>
                 <h3>Миллионы фильмов, сериалов и людей. Исследуйте сейчас.</h3>
-
-                
-                </div>
+            </div>
                 <input type="search"/>
                  <button>Search</button>
               </div>

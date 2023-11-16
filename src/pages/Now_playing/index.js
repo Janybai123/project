@@ -12,6 +12,7 @@ const Now_playing = () => {
             setNowplaying(res.data.results)
         })
     }
+    
     useEffect(()=>{
         getNowPlaying()
     },[])
